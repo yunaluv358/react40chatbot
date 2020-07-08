@@ -1,6 +1,8 @@
 import hello, {goodbye, birthday, add} from "./hello";
 import jsTypes,{tsTypes, symbolType, tupleType} from "./jsTypes";
-let menu: number = 3
+import operator, {destructure} from "./operator";
+import loop from "./loop";
+let menu: number = 5
 let name, profile: string= ""
 switch (menu) {
     case 0:
@@ -25,6 +27,13 @@ switch (menu) {
             // tsTypes()
             // symbolType()
         tupleType()
+        break
+    case 4:
+        operator()
+
+        break
+    case 5:
+        loop()
         break
     default :
         console.log("존재하지 않는 케이스입니다.")
