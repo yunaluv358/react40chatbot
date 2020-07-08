@@ -17,7 +17,7 @@ function whileLoop() {
     let sum: number = 0
     while(count<100){
         count++
-        sum += count
+        sum  += count
     }
     console.log(`1부터 100까지 합: ${sum}`)
 }
@@ -38,7 +38,7 @@ function forLoop(){
     for(count=0; count<=100; count++){
         sum += count
     }
-    console.log(`1부터 100까지 합: ${sum}`)
+    console.log(`1부터 100까지의 합: ${sum}`)
 }
 function forInArrayLoop(){
 

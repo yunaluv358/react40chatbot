@@ -1,8 +1,8 @@
 import hello, {goodbye, birthday, add} from "./hello";
 import jsTypes,{tsTypes, symbolType, tupleType} from "./jsTypes";
-import operator, {destructure} from "./operator";
+import operator, {spread} from "./operator";
 import loop from "./loop";
-let menu: number = 5
+let menu: number = 4
 let name, profile: string= ""
 switch (menu) {
     case 0:
