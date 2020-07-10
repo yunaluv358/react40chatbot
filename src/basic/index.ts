@@ -2,7 +2,7 @@ import hello, {goodbye, birthday, add} from "./hello";
 import jsTypes,{tsTypes, symbolType, tupleType} from "./jsTypes";
 import operator, {spread} from "./operator";
 import loop from "./loop";
-let menu: number = 4
+let menu: number = 5
 let name, profile: string= ""
 switch (menu) {
     case 0:
@@ -30,6 +30,7 @@ switch (menu) {
         break
     case 4:
         operator()
+        spread()
 
         break
     case 5:

@@ -8,7 +8,8 @@ export function add(num1: number, num2: number):string {
 }
 export function birthday(name: string, year: number) {
     const profile = {
-
+        name2: name, age: new Date().getFullYear() - year
     }
+    return profile
 
 }
