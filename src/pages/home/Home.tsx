@@ -4,38 +4,11 @@ import './home.css'; //Import here your file style
 
 const gridExamplesPage = () => {
     return (
-        <MDBContainer>
-            <MDBRow>
-                <MDBCol size="4">.col-4</MDBCol>
-                <MDBCol size="4">.col-4</MDBCol>
-                <MDBCol size="4">.col-4</MDBCol>
-            </MDBRow>
+        <div className="nav">
+        <div className="nav-item"> 메뉴1
 
-            <MDBRow>
-                <MDBCol sm="4">.col-sm-4</MDBCol>
-                <MDBCol sm="4">.col-sm-4</MDBCol>
-                <MDBCol sm="4">.col-sm-4</MDBCol>
-            </MDBRow>
-
-            <MDBRow>
-                <MDBCol md="4">.col-md-4</MDBCol>
-                <MDBCol md="4">.col-md-4</MDBCol>
-                <MDBCol md="4">.col-md-4</MDBCol>
-            </MDBRow>
-
-            <MDBRow>
-                <MDBCol lg="4">.col-lg-4</MDBCol>
-                <MDBCol lg="4">.col-lg-4</MDBCol>
-                <MDBCol lg="4">.col-lg-4</MDBCol>
-            </MDBRow>
-
-            <MDBRow>
-                <MDBCol xl="4">.col-xl-4</MDBCol>
-                <MDBCol xl="4">.col-xl-4</MDBCol>
-                <MDBCol xl="4">.col-xl-4</MDBCol>
-            </MDBRow>
-        </MDBContainer>
-    );
+    </div>
+    </div>)
 }
 
 export default gridExamplesPage;

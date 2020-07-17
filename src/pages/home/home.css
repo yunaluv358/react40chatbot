@@ -2,7 +2,9 @@
 .col-sm-4,
 .col-md-4,
 .col-lg-4,
-.col-xl-4 {
+.col-xl-4,
+.nav,
+.nav-item{
     padding: 1rem;
     background-color: #33b5e5;
     border: 2px solid #fff;
