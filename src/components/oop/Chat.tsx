@@ -1,7 +1,8 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 // @ts-ignore
 import ChatBot from 'react-simple-chatbot';
-class Chat extends Component{
+
+class Chat extends Component {
     render() {
         return (
             <div>
@@ -39,4 +40,5 @@ class Chat extends Component{
         );
     }
 }
+
 export default Chat;

@@ -1,4 +1,4 @@
-export default function jsTypes():void {
+export default function jsTypes(): void {
     console.log("------ Javascript Types -------")
     /**
      * Types:
@@ -13,7 +13,9 @@ export default function jsTypes():void {
     let myNull = null
     let myJSON = {}
     let myArray = []
-    let myFunction = function(a){return a}
+    let myFunction = function (a) {
+        return a
+    }
 
     console.log(`boolean : ${typeof myBoolean}`)
     console.log(`number : ${typeof myNumber}`)
@@ -26,30 +28,35 @@ export default function jsTypes():void {
 
 }
 
-export function tsTypes():void {
+export function tsTypes(): void {
     let basket: any = 10
     basket = true
     basket = "TV"
     //console.log(basket)
     let arr: string[] = ["a", "b", "c"]
-    for(let i=0; i<arr.length; i++){
+    for (let i = 0; i < arr.length; i++) {
         console.log(`${arr[i]}\t`)
     }
     let arr2: Array<string> = ["d", "e", "f"]
-    for(let i=0; i<arr2.length; i++){
+    for (let i = 0; i < arr2.length; i++) {
         console.log(`${arr2[i]}\t`)
     }
     console.log(`----enum-----`);
+
     enum WeekDay {
-        Mon = 0, Tue = 1, Wed=2, Thu=Tue+Wed
+        Mon = 0, Tue = 1, Wed = 2, Thu = Tue + Wed
     }
+
     const thu2: number = 10 * 2;
+
     enum WeekDay2 {
         Mon = 10, Tue = 11, Wed = 10 << 2, Thu = thu2
     }
+
     enum WeekDay3 {
-        Mon = "Monday", Tue="Tuesday"
+        Mon = "Monday", Tue = "Tuesday"
     }
+
     console.log(`1. ${JSON.stringify(WeekDay)}`)
     console.log(`2. ${JSON.stringify(WeekDay2)}`)
     console.log(`3. ${JSON.stringify(WeekDay3)}`)
@@ -64,6 +71,7 @@ export function tsTypes():void {
     let myDay2: WeekDay3 = WeekDay3.Mon
     console.log(`10. ${typeof myDay2}, ${myDay2}`)
 }
+
 export function symbolType(): void {
     const hello = Symbol("hello")
     const hello2 = Symbol("hello")
@@ -78,6 +86,7 @@ export function symbolType(): void {
     obj[uniqueKey] = 1234
     console.log(obj)
 }
+
 export function tupleType(): void {
     let x: [string, number]
     x = ["tuple", 100]

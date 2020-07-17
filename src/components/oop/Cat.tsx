@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-export default class Cat extends Component{
+
+export default class Cat extends Component {
     public state = {
         time: "",
         text: 'I hope you enjoy learning React!',
@@ -15,7 +16,8 @@ export default class Cat extends Component{
         })
 
     }
-    public render(){
+
+    public render() {
         return <div className="Comment">
             <div className="UserInfo">
                 <img

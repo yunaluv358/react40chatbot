@@ -1,12 +1,12 @@
-export default function hello(name: string):string {
+export default function hello(name: string): string {
     return `안녕 ${name}`
 }
 
-export function goodbye(name: string):string {
+export function goodbye(name: string): string {
     return `굿바이 ${name}`
 }
 
-export function birthday(name: string, year: number):object {
+export function birthday(name: string, year: number): object {
 
     const profile = {
         name: name, age: new Date().getFullYear() - year
@@ -15,9 +15,9 @@ export function birthday(name: string, year: number):object {
     return profile
 }
 
-export function add(num1: number, num2: number):number {
-        return num1 + num2
-    }
+export function add(num1: number, num2: number): number {
+    return num1 + num2
+}
 
 
 

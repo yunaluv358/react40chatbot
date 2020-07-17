@@ -14,6 +14,6 @@ const routerConfig = [
         exact: true,
         component: Home
     },
-    { path: '/chat', exact: true, component: Chat}
+    {path: '/chat', exact: true, component: Chat}
 ]
 export default routerConfig

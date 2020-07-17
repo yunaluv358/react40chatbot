@@ -1,9 +1,10 @@
 import hello, {goodbye, birthday, add} from "./hello";
-import jsTypes,{tsTypes, symbolType, tupleType} from "./jsTypes";
+import jsTypes, {tsTypes, symbolType, tupleType} from "./jsTypes";
 import operator, {spread} from "./operator";
 import loop from "./loop";
+
 let menu: number = 5
-let name, profile: string= ""
+let name, profile: string = ""
 switch (menu) {
     case 0:
         name = "홍길동"
@@ -13,7 +14,7 @@ switch (menu) {
     case 1:
         name = "김유신"
         let year: number = 2002
-        profile = JSON.stringify(birthday(name,year))
+        profile = JSON.stringify(birthday(name, year))
         console.log(profile)
         break
     case 2:
@@ -23,9 +24,9 @@ switch (menu) {
         console.log(`덧셈결과: ${addResult}`)
         break
     case 3: // 자바스크립트 타입 출력
-            // jsTypes()
-            // tsTypes()
-            // symbolType()
+        // jsTypes()
+        // tsTypes()
+        // symbolType()
         tupleType()
         break
     case 4:

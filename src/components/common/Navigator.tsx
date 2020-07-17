@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class Navigator extends Component<any, any>{
+class Navigator extends Component<any, any> {
     public render() {
         return <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             {/*Brand*/}
@@ -23,9 +23,12 @@ class Navigator extends Component<any, any>{
                         <a className="dropdown-item" href="#">Link 2</a>
                         <a className="dropdown-item" href="#">Link 3</a>
                     </div>
+
                 </li>
             </ul>
         </nav>
+
     }
 }
+
 export default Navigator
